@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Webpage</title>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td> Vanilla cake </td>
-        <td> $20 </td>
-        <td> Our most popular cake - simple and delicious </td>
-      </tr>
-      <tr>
-        <td> Dark chocolate cake </td>
-        <td> $25 </td>
-        <td> Decadent moist chocolate cake made with 60% </td>
-      </tr>
-      <tr>
-        <td> Durian cake </td>
-        <td> $30 </td>
-        <td> Made with real Malaysian Durian, this cake packs bold flavours </td>
-      </tr>
+<head>
+  <title>My Webpage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2>Natural Cakes</h2>
+  </header>
+
+  <section>
+    <nav>
+        <div> <a href="index.html"> Home </a> </div>
+        <div> <a href="Cakes.html"> Cakes </a> </div>
+        <div> <a href="Buy.html"> Buy </a> </div>
+        <div> <a href="TnC.html"> T and C </a> </div>
+    </nav>
+
+    <article>
+      <table class="cakeTable">
+        <tr>
+          <td class="cakePic"> <img src="VanillaCake.jpg" alt="Vanilla cake" width=100%> </td>
+          <td class="cakePx"> $20 </td>
+          <td class="cakeDes"> Our most popular cake - simple and delicious </td>
+        </tr>
+        <tr>
+          <td class="cakePic"> <img src="ChocCake.jpg" alt="Dark chocolate cake" width=100%> </td>
+          <td class="cakePx"> $25 </td>
+          <td class="cakeDes"> Decadent moist chocolate cake made with 60% </td>
+        </tr>
+        <tr>
+          <td class="cakePic"> <img src="DurianCake.jpg" alt="Durian cake" width=100%> </td>
+          <td class="cakePx"> $30 </td>
+          <td class="cakeDes"> Made with real Malaysian Durian, this cake packs bold flavours </td>
+        </tr>
+      </table>
+    </article>
+    <footer>
+      <p> See terms and conditions </p>
+    </footer>
+
   </body>
 </html>
