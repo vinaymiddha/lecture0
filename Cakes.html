@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <title>My Webpage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,27 +25,44 @@
     </nav>
 
     <article>
-      <table class="cakeTable">
-        <tr id="cakeOfMonth">
-          <td class="cakePic"> <img src="VanillaCake.jpg" alt="Vanilla cake" width=100%> </td>
-          <td class="cakePx"> Cake of the month promo $20 </td>
-          <td class="cakeDes"> Our most popular cake - simple and delicious </td>
-        </tr>
-        <tr>
-          <td class="cakePic"> <img src="ChocCake.jpg" alt="Dark chocolate cake" width=100%> </td>
-          <td class="cakePx"> $25 </td>
-          <td class="cakeDes"> Decadent moist chocolate cake made with 60% </td>
-        </tr>
-        <tr>
-          <td class="cakePic"> <img src="DurianCake.jpg" alt="Durian cake" width=100%> </td>
-          <td class="cakePx"> $30 </td>
-          <td class="cakeDes"> Made with real Malaysian Durian, this cake packs bold flavours </td>
-        </tr>
-      </table>
+      <div class="container row">
+        <div class="card" style="width: 24rem;">
+          <img src="VanillaCake.jpg" class="card-img-top" alt="Vanilla Cake">
+          <div class="card-body">
+            <h5 class="card-title">Vanilla Cake</h5>
+            <p class="card-text">Our most popular cake - simple and delicious</p>
+            <a href="Buy.html" class="btn btn-primary">promo $20</a>
+          </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+          <img src="ChocCake.jpg" class="card-img-top" alt="Chocolate cake">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Cake</h5>
+            <p class="card-text"> Decadent moist chocolate cake made with 60% </p>
+            <a href="Buy.html" class="btn btn-primary">$25</a>
+          </div>
+        </div>
+      </div>
+      <div class="container row">
+        <div class="card" style="width: 24rem;">
+          <img src="DurianCake.jpg" class="card-img-top" alt="Durian cake">
+          <div class="card-body">
+            <h5 class="card-title">Durian Cake</h5>
+            <p class="card-text"> Made with real Malaysian Durian, this cake packs bold flavours </p>
+            <a href="Buy.html" class="btn btn-primary">$30</a>
+          </div>
+        </div>
+      </div>
     </article>
     <footer>
       <p> See terms and conditions </p>
     </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   </body>
 </html>
